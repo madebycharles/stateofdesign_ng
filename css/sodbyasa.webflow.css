@@ -15,7 +15,7 @@
 
 .loader {
   position: relative;
-  z-index: 9;
+  z-index: 11;
   display: none;
   height: 100vh;
   background-color: #ff3839;
