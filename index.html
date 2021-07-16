@@ -174,13 +174,13 @@ function setOverflow() {
     </div>
   </div>
   <div class="bg-noise"></div>
-  <div data-w-id="cbaa4282-a415-9a0a-3fbe-58512f3952d6" class="musiccontainer">
+  <div data-w-id="cbaa4282-a415-9a0a-3fbe-58512f3952d6" class="musiccontainer" onclick="togglePlay()">
     <div class="w-row">
       <div class="column w-col w-col-6">
         <div class="mute w-embed w-script"><audio id="music" preload="auto">>
             <source src="https://dl.dropboxusercontent.com/s/6vy34yc7s3qgxr5/Lagbaja-Konko-below.mp3?dl=0" type="audio/mpeg">
           </audio>
-          <a class="play txtb" onclick="togglePlay()" style="text-decoration:none; font-size:14px; color:white;">Sound</a>
+          <a class="play txtb" style="text-decoration:none; font-size:14px; color:white;">Sound</a>
           <script>
 var music = document.getElementById("music");
 var isPlaying = false;
