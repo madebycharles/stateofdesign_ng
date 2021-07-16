@@ -1,11 +1,7 @@
 .body {
-  overflow: visible;
+  overflow: hidden;
   height: 100%;
   background-color: transparent;
-}
-
-.body.container {
-  overflow: hidden;
 }
 
 .loader {
