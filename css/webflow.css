@@ -660,7 +660,7 @@ textarea.w-select {
     margin-right: 0;
   }
   .w-col {
-    width: 100%;
+    width: ;
     left: auto;
     right: auto;
   }
@@ -717,9 +717,9 @@ textarea.w-select {
   .w-hidden-tiny {
     display: none !important;
   }
-  .w-col {
-    width: 100%;
-  }
+   .w-col {
+    width: ;
+  } 
   .w-col-tiny-1 {
     width: 8.33333333%;
   }

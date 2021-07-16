@@ -985,6 +985,7 @@
   border-radius: 0px 4px 4px 0px;
   background-color: #ff3839;
   cursor: pointer;
+  z-index: 10;
 }
 
 @media screen and (max-width: 991px) {
